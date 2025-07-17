@@ -1,7 +1,7 @@
 🤖 Obstacle-Avoiding Robot with Ultrasonic Sensors (Arduino)
 This project implements an autonomous obstacle-avoiding robot using an Arduino, ultrasonic sensors, and DC motors driven via an L298N motor driver. The robot can detect obstacles in front, left, and right directions and dynamically adjust its path by turning away from obstacles.
 
-Project Features
+Project Features:-
 
 Uses three ultrasonic sensors to measure distances in:
 
@@ -9,7 +9,7 @@ Uses three ultrasonic sensors to measure distances in:
 2.Left
 3.Right
 
-Basic obstacle avoidance logic:
+Basic obstacle avoidance logic:-
 
 1.Moves forward if the path is clear
 
@@ -19,7 +19,8 @@ Basic obstacle avoidance logic:
 
 4.Compatible with common robotics kits using L298N motor drivers
 
-Hardware Components
+Hardware Components:-
+
 1.Arduino UNO (or compatible board)
 
 2.3x HC-SR04 Ultrasonic Sensors
@@ -33,7 +34,7 @@ Hardware Components
 6.Jumper wires
 
 
-Behavior Logic
+Behavior Logic:-
 1.If front distance > 13 cm, robot moves forward.
 
 2.If an obstacle is detected in front.Robot stops.Compares left and right distances.Turns in the direction with more space.Resumes movement.
