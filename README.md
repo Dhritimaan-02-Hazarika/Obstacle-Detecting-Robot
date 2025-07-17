@@ -4,6 +4,7 @@ This project implements an autonomous obstacle-avoiding robot using an Arduino, 
 Project Features
 
 Uses three ultrasonic sensors to measure distances in:
+
 1.Front
 2.Left
 3.Right
